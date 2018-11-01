@@ -131,7 +131,7 @@ filew.close()
 # =============================================================================
 #Assume everything is equal to zero at first
 
-etval1 = set()                   # A new empty set
+setval1 = set()                   # A new empty set
 setval1.add("00")                # Add a single member
 setval1.update(["11", "10"])  
 setval1 |= set(["10", "11"]) 
